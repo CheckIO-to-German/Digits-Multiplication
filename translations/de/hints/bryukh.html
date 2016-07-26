@@ -1,11 +1,11 @@
 <body data-author="bryukh">
 <div class="question-answer">
     <div class="question">
-        I have no idea how to start solving this mission
+        Ich habe keine Ahnung wo ich mit der L&ouml;sung anfangen soll.
     </div>
     <div class="answer">
-        You will need to separate digits from the number.
-        You can easily do this if convert a number in the string and work with it as with a sequence.
+        Du musst die Zahl in Ziffern zerlegen.
+        Dazu brauchst Du nur die Zahl in einen String umwandeln und kannst dann damit wie mit einer Sequenz arbeiten.
 <pre class="brush: python">
 str(20123) == "20123"
 s = str(102)
@@ -18,10 +18,10 @@ for x in str(number):
 </div>
 <div class="question-answer">
     <div class="question">
-        I need some help to proceed with the mission
+        Ich brauche etwas Hilfe um weiter zu kommen.
     </div>
     <div class="answer">
-        You can convert each string digit in a number with "int(s)"
+        Du kannst jede Ziffer in einem String mit "int(s)" in eine Zahl umwandeln.
 <pre class="brush: python">
 for s in str(number):
     n = int(s)
@@ -30,10 +30,10 @@ for s in str(number):
 </div>
 <div class="question-answer">
     <div class="question">
-        I am gone half way through. Need help!
+        Ich hab's fast. Bitte hilf mir!
     </div>
     <div class="answer">
-        Multiply digits and accumulate the result
+        Multipliziere die Ziffern!
 <pre class="brush: python">
 result = 1
 for s in str(number):
@@ -45,10 +45,10 @@ for s in str(number):
 </div>
 <div class="question-answer">
     <div class="question">
-        I am stuck. I need a small hint.
+        Ich komme nicht weiter. Gib mir einen kleinen Tip.
     </div>
     <div class="answer">
-        In the last hint I "forgot" about zeroes. Of course you should skip them.
+        In meinem letzten Tipp habe ich "vergessen" auf die Nullen, hinzuweisen. Die musst Du nat&uuml;rlich auslassen.
 <pre class="brush: python">
 if not n:  # if n == 0:
     continue
